@@ -1,0 +1,71 @@
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+.all-btn {
+  width: 70px;
+  height: 50px;
+  background-color: #009cda;
+  color: #fff;
+  border: 0;
+  font-size: 18px;
+  outline: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: all .1s linear;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.all-btn:active {
+  transform: scale(1.01);
+  box-shadow: none;
+  letter-spacing: 1.5px;
+  opacity: .8;
+
+}
+.like-btn {
+  width: 70px;
+  height: 50px;
+  color: #000000;
+  border: 1px solid #b9b9b9;
+  font-size: 18px;
+  outline: none;
+  border-radius: 8px;
+  transition: all .2s linear;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.like-btn:active {
+  transform: scale(1.05);
+  box-shadow: none;
+  letter-spacing: 1px;
+  background-color: #ff010f;
+  color: #fff;
+}
+.like-btn:hover {
+  transform: scale(1.05);
+  box-shadow: none;
+  letter-spacing: 1px;
+  background-color: #ff010f;
+  color: #fff;
+}
+.btn-outline-secondary {
+  padding: 10px 20px;
+  color: #575757;
+  border: 1px solid #9b9b9b;
+  font-size: 18px;
+  outline: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: all .1s linear;
+}
+.btn-info {
+  background-color: #009cda;
+  padding: 10px 20px;
+  color: #fff;
+  border: 0;
+  font-size: 18px;
+  outline: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: all .1s linear;
+}

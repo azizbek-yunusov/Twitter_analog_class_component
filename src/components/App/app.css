@@ -1,0 +1,23 @@
+.app {
+  position: relative;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 1024px;
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  
+}
+.search-panel {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
